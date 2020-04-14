@@ -7,8 +7,10 @@ This branch of this fork has been updated to work on the Raspberry Pi 4.  This b
 
 The offical rubygems version does not support Raspberry Pi 4, this branch of this fork will work with the Raspberry Pi 4.
 
-`gem install specific_install`
-`sudo gem specific_install -l https://github.com/davidgyoung/WiringPi-Ruby.git -b wiringpi250`
+```
+gem install specific_install
+sudo gem specific_install -l https://github.com/davidgyoung/WiringPi-Ruby.git -b wiringpi250
+```
 
 ## Example
 ```
