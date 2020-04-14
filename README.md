@@ -1,14 +1,14 @@
 # WiringPi
 WiringPi is an implementation of most of the Arduino Wiring functions for the Raspberry Pi, this gem is a wrapper for the main wiringpi library and provides a nice OO interface with a few other handy helpers.
 
-## Installation
-Install with `gem install wiringpi2` or use bundler's Gemfile
-```
-source 'https://rubygems.org'
+This branch of this fork has been updated to work on the Raspberry Pi 4.  This branch is specifically tied to WiringPi binary version 2.50 [here](https://github.com/WiringPi/WiringPi/releases/tag/final_official_2.50).  That is the maintenance repo for Wiring Pi now that Gordon Henderson (who long gave us all his great work) has deprecated his repo.
 
-gem 'wiringpi2' # https://github.com/WiringPi/WiringPi-Ruby
-```
-then: `bundle install`
+## Installation
+
+The offical rubygems version does not support Raspberry Pi 4, this branch of this fork will work with the Raspberry Pi 4.
+
+`gem install specific_install`
+`sudo gem specific_install -l https://github.com/davidgyoung/WiringPi-Ruby.git -b wiringpi250`
 
 ## Example
 ```
